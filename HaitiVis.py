@@ -43,7 +43,7 @@ circleArea = 75
 colors = np.random.rand(len(numberOfCountries))
 plt.xticks(x, countryNames, rotation = 'vertical')
 plt.scatter(x, y, s = circleArea, c = colors, alpha = 0.5)
-plt.title("Literacy rates in Latin American and Caribbean Countries")
+plt.title("Literacy rates in Latin American and Caribbean Countries (ages 15-24)")
 plt.xlabel("Latin American and Caribbean Countries")
 plt.ylabel("Literacy Rate (%)")
 plt.show()
